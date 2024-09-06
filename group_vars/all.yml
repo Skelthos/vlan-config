@@ -2,9 +2,9 @@ vlans:
   - id: 10
     name: STORAGE
   - id: 20
-    name: SERGVERS
+    name: SERVERS
   - id: 30
-    name: users
+    name: USERS
 
 
 
