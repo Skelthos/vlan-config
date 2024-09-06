@@ -11,4 +11,4 @@
       -name: USE VLAN TEMPLATE TO GENERATE FILES
       ansible.builtin.templete:
         src: vlans.j2
-        dest: output/{{inventory_hostname}}_vlans.cfg
+        dest: output/{{ inventory_hostname }}_vlans.cfg
