@@ -1,0 +1,10 @@
+vlans:
+  - id: 10
+    name: STORAGE
+  - id: 20
+    name: SERGVERS
+  - id: 30
+    name: users
+
+
+
