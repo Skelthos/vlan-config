@@ -6,7 +6,7 @@
   tasks:
     - name: ENSURE OUTPUT FOLDER EXISTS
       ansible.builtin.file:
-        paht: output
+        path: output
         state: directory
       -name: USE VLAN TEMPLATE TO GENERATE FILES
       ansible.builtin.templete:
